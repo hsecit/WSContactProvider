@@ -46,5 +46,11 @@ public class Contact {
     public void setTel(String tel) {
         this.tel = tel;
     }
+    ///
+
+    @Override
+    public String toString() {
+        return "Contact{" + "idcontact=" + idcontact + ", nomcontact=" + nomcontact + ", tel=" + tel + '}';
+    }
     
 }
